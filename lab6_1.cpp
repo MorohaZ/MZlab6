@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    int contodd=0,conteven=0,num[50];
+    int contodd=0,conteven=0,num[500];
     int i=0;
     while (1)
     {
@@ -19,6 +19,8 @@ int main(){
         }
         i++;
     }
+
+    
     
     cout << "#Even numbers = "<<conteven<<"\n";
     cout << "#Odd numbers = "<<contodd;
